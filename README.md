@@ -21,3 +21,17 @@
 <li>Launch the app: <code>node app.js</code></li>
 <li>Visit in your browser at: <code>http://localhost:3000</code></li>
 </ol>
+
+<h1>Screenshots</h1>
+
+<h3>1. Login Page</h3>
+
+![alt tag](https://github.com/pawan1773/expressjs-authentication-starter-app/blob/master/login.JPG)
+
+<h3>2. Signup Page</h3>
+
+![alt tag](https://github.com/pawan1773/expressjs-authentication-starter-app/blob/master/signup.JPG)
+
+<h3>3. Home Page</h3>
+
+![alt tag](https://github.com/pawan1773/expressjs-authentication-starter-app/blob/master/home.JPG)

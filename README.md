@@ -6,10 +6,10 @@
 <p> Here are some key points of this starter app. </p>
 <ul>
   <li>Framework used: Express.js.</li>
-  <li>Database: Mongodb.</li>
-  <li>Passport(passport-local) for authentication.</li>
+  <li>Database used: Mongodb.</li>
+  <li>Passport (passport-local) for authentication.</li>
   <li>Bycrypt password encryption.</li>
-  <li>Express session.</li>
+  <li>Express-session.</li>
   <li>Case-sensitive routing.</li>
   <li>Winston and Morgan for logging (Writing logs to <code>logs/app-logs.log</code>).</li>
   <li>Bootstrap 4 for responsive pages.</li>

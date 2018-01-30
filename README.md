@@ -1,14 +1,18 @@
 <h1> Express.js user authentication starter app.</h1>
 
-<p> This app uses Passport to authenticate user locally. </p>
+<p> This is an  Express.js user authentication (login/signup) starter app. </p>
 
-<h1> Features of this app </h1>
+<h1>Features</h1>
+<p> Here are some key points of this starter app. </p>
 <ul>
-<li>Login module.</li>
-<li>Signup module.</li>
-<li>User Authentication using Passport.</li>
-<li>Case-sensitive routing.</li>
-<li>Logging feature (Writing logs to a file - logs/app-logs.log).</li>
+  <li>Framework used: Express.js.</li>
+  <li>Database: Mongodb.</li>
+  <li>Passport(passport-local) for authentication.</li>
+  <li>Bycrypt password encryption.</li>
+  <li>Express session.</li>
+  <li>Case-sensitive routing.</li>
+  <li>Winston and Morgan for logging (Writing logs to <code>logs/app-logs.log</code>).</li>
+  <li>Bootstrap 4 for responsive pages.</li>
 </ul>
 
 <h1>Instructions </h1>

@@ -1,0 +1,38 @@
+<!-- home page -->
+<!-- author: Joginder Pawan Kumar -->
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Home | Express.js Authentication Starter App</title>
+	<!-- custom css file -->
+	<link rel="stylesheet" href="/assests/css/style.css">
+	<!-- bootstrap css file -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ"
+	 crossorigin="anonymous">
+	<!-- fontawesome css file -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+	<div class="container">
+		<div class="jumbotron" style="margin-top: 50px;">
+			<h1 class="display-3">
+				<span class="fa fa-home"></span> Home Page</h1>
+			<p class="lead">Below are the details of currently logged-in user.</p>
+			<hr class="my-4">
+			<p>
+				<strong>_id</strong>: <%= user._id %><br>
+				<strong>email</strong>: <%= user.local.email %><br>
+				<strong>password</strong>: <%= user.local.password %>
+			</p>
+			<p class="lead">
+				<a href="/logout" class="btn btn-danger btn-lg" role="button">Logout</a>
+			</p>
+		</div>
+</body>
+
+</html>

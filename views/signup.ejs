@@ -1,0 +1,107 @@
+<!-- signup page -->
+<!-- author: Joginder Pawan Kumar -->
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Signup | Express.js Authentication Starter App</title>
+	<!-- custom css file -->
+	<link rel="stylesheet" href="/assests/css/style.css">
+	<!-- bootstrap css file -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ"
+	 crossorigin="anonymous">
+	<!-- fontawesome css file -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+	<div class="container">
+		<div class="container-fluid signup-panel">
+			<form class="form-horizontal" role="form" method="POST" action="/signup">
+				<div class="row">
+					<div class="col-md-2"></div>
+					<div class="col-md-8">
+						<h3 class="text-info">Signup</h3>
+						<hr>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-2"></div>
+					<div class="col-md-8">
+						<div class="form-group">
+							<label class="sr-only" for="email">E-Mail Address</label>
+							<div class="input-group mb-2 mr-sm-2 mb-sm-0">
+								<div class="input-group-addon" style="width: 2.6rem">
+									<i class="fa fa-envelope "></i>
+								</div>
+								<input type="text" class="form-control" name="email" id="email" placeholder="Enter your email id" required autofocus>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-2"></div>
+					<div class="col-md-8">
+						<div class="form-group">
+							<label class="sr-only" for="password">Password</label>
+							<div class="input-group mb-2 mr-sm-2 mb-sm-0">
+								<div class="input-group-addon" style="width: 2.6rem">
+									<i class="fa fa-lock"></i>
+								</div>
+								<input type="password" name="password" class="form-control" id="password" placeholder="Enter your password" required>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-2"></div>
+					<div class="col-md-8">
+						<p style="font-size: 14px;">
+							<i class="fa fa-info-circle text-info"></i> The password must contain at least 8 characters, including at least one special character, an uppercase and a lowercase letter and a digit.
+						</p>
+					</div>
+				</div>
+				<div class="row" style="padding-top: 1rem">
+					<div class="col-md-2"></div>
+					<div class="col-md-8">
+						<button type="submit" class="btn btn-info">
+							<i class="fa fa-sign-in"></i> Signup</button>
+					</div>
+				</div>
+				<div class="row" style="padding-top: 1rem">
+					<div class="col-md-2"></div>
+					<div class="col-md-8">
+						<a class="btn btn-link" href="/" style="padding-left: 0">Already have an account? Login here.</a>
+					</div>
+				</div>
+
+				<% if (message.length > 0) { %>
+					<div class="row" style="padding-top: 1rem">
+						<div class="col-md-2"></div>
+						<div class="col-md-8">
+							<div class="alert alert-danger">
+								<%= message %>
+							</div>
+						</div>
+					</div>
+					<% } %>
+			</form>
+		</div>
+	</div>
+
+	<!-- bootstrap 4 related js files -->
+	<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n"
+	 crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
+	 crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
+	 crossorigin="anonymous"></script>
+	<script type="text/javascript" src="/assests/js/custom.js"></script>
+
+</body>
+
+</html>

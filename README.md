@@ -30,7 +30,7 @@
 
 <h3>2. Signup Page</h3>
 
-![alt tag](https://github.com/pawan1773/expressjs-authentication-starter-app/blob/master/signup.JPG)
+![alt tag](https://github.com/pawan1773/expressjs-authentication-starter-app/blob/master/scr-sign-up.JPG)
 
 <h3>3. Home Page</h3>
 

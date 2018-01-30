@@ -26,12 +26,12 @@
 
 <h3>1. Login Page</h3>
 
-![alt tag](https://github.com/pawan1773/expressjs-authentication-starter-app/blob/master/login.JPG)
+![alt tag](https://github.com/pawan1773/expressjs-authentication-starter-app/blob/master/screenshots/login.JPG)
 
 <h3>2. Signup Page</h3>
 
-![alt tag](https://github.com/pawan1773/expressjs-authentication-starter-app/blob/master/scr-sign-up.JPG)
+![alt tag](https://github.com/pawan1773/expressjs-authentication-starter-app/blob/master/screenshots/scr-sign-up.JPG)
 
 <h3>3. Home Page</h3>
 
-![alt tag](https://github.com/pawan1773/expressjs-authentication-starter-app/blob/master/home.JPG)
+![alt tag](https://github.com/pawan1773/expressjs-authentication-starter-app/blob/master/screenshots/home.JPG)

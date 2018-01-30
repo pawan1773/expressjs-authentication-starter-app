@@ -7,7 +7,7 @@
 <li>Login module.</li>
 <li>Signup module.</li>
 <li>User Authentication using Passport.</li>
-<li>Case-sensitive routing</li>
+<li>Case-sensitive routing.</li>
 <li>Logging feature (Writing logs to a file - logs/app-logs.log).</li>
 </ul>
 
